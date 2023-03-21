@@ -1,0 +1,14 @@
+GET http://localhost:3000/api/country HTTP/1.1
+
+###
+GET http://localhost:3000/api/country/2 HTTP/1.1
+
+###
+POST http://localhost:3000/api/country/ HTTP/1.1
+Content-Type: : application/json
+
+{
+  "name": "Chile",
+  "capital": "Santiago de Chile",
+  "currency": "CLP"
+}
